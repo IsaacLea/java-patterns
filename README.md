@@ -17,6 +17,9 @@ Some examples of basic pattern implementations
 ### Builder
 - Provides a a nice way to construct objects that have a lot of parameters and it enforces how the objects are created.  Doesn't expose setter methods on the returned object so it is immutable
 
+### Prototype
+- Used when object instances need to be cloned / replicated.  The implementation provides a clone method that returns a new cloned instance of itself
+
 
 ## Behavioral patterns
 
