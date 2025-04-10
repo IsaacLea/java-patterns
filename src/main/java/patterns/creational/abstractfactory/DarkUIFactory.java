@@ -1,4 +1,4 @@
-package patterns.creational.factory.abstractfactory;
+package patterns.creational.abstractfactory;
 
 public class DarkUIFactory implements UIFactory {
 	

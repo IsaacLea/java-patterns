@@ -1,4 +1,4 @@
-package patterns.creational.factory.abstractfactory;
+package patterns.creational.abstractfactory;
 
 public class DarkTextField implements TextField {
 	@Override

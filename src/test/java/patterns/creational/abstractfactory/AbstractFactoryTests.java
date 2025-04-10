@@ -1,13 +1,13 @@
-package patterns.creational.factory.abstractfactory;
+package patterns.creational.abstractfactory;
 
 import org.junit.jupiter.api.Test;
 
+import patterns.creational.abstractfactory.Button;
+import patterns.creational.abstractfactory.DarkUIFactory;
+import patterns.creational.abstractfactory.LightUIFactory;
+import patterns.creational.abstractfactory.TextField;
+import patterns.creational.abstractfactory.UIFactory;
 import patterns.creational.factory.PaymentConstants.PayMethod;
-import patterns.creational.factory.abstractfactory.Button;
-import patterns.creational.factory.abstractfactory.DarkUIFactory;
-import patterns.creational.factory.abstractfactory.LightUIFactory;
-import patterns.creational.factory.abstractfactory.TextField;
-import patterns.creational.factory.abstractfactory.UIFactory;
 
 class AbstractFactoryTests {
 
