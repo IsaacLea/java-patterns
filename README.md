@@ -16,3 +16,18 @@ Some examples of basic pattern implementations
 
 ### Builder
 - Provides a a nice way to construct objects that have a lot of parameters and it enforces how the objects are created.  Doesn't expose setter methods on the returned object so it is immutable
+
+
+## Behavioral patterns
+
+### Observer
+- Useful when various client instances need to be made aware of property changes from a main source (pub/sub).  Clients register as observers.  Note to take care of cleanup of clients (ubsubscribe) no longer need to observe to avoid memory leaks.
+
+### Strategy
+- Useful for when there are many implementations of similar things (many different payment methods for example).  Abstracts the concrete implementation away from the calling class.
+
+
+## Structural patterns
+
+### Decorator
+- Decorators have creation methods or constructors that accept objects of the same class or interface as a current class.  Can instantiate an object decorated with implementations of many things, then call its public method to execute code in sequence on all those things.
