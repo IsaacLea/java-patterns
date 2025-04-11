@@ -34,3 +34,6 @@ Some examples of basic pattern implementations
 
 ### Decorator
 - Decorators have creation methods or constructors that accept objects of the same class or interface as a current class.  Can instantiate an object decorated with implementations of many things, then call its public method to execute code in sequence on all those things.
+
+### Facade
+- Provides a simplified interface to a complex subsystem.  Used to hide complexity in an easier to use facade.
