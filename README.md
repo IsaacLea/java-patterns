@@ -37,3 +37,6 @@ Some examples of basic pattern implementations
 
 ### Facade
 - Provides a simplified interface to a complex subsystem.  Used to hide complexity in an easier to use facade.
+
+### Adapter
+- Used as a wrapper around an incompatible object that make it compatible (wrapper around square peg to give it the necessary methods to behave as a round peg with some intermediate logic to 'adapt' it)
